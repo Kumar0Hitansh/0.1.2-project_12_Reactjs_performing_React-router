@@ -1,0 +1,46 @@
+.navdiv{
+    width: 75%;
+    margin: auto;
+    font-size: larger;
+}
+.navbar{
+    background-color: powderblue;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.active{
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 0.368);
+    color: black;
+    padding: 5px;
+    border-radius: 4px;
+}
+.pagename{
+    background: skyblue;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 20px;
+}
+.containerf{
+    padding: 10px;
+    border :2px solid black;
+    border-radius: 4px;
+    margin: 10px;
+    text-align: justify;
+}
+
+#homecont{
+    background: rgba(65, 105, 225, 0.852);
+}
+#aboutcont{
+    background-color: rgba(65, 105, 225, 0.616);
+}
+#contactcont{
+    background-color:rgb(65, 105, 225) ;
+}
